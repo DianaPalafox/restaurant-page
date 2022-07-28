@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    overflow: hidden;  
+}*/
+
+.container {
+    height: 100%;
+    background-color: #134059;
+}
+
+.menu-tab, .home-tab, .contact-tab{
+    width: 90px;
+    height: 10vh;
+    background-color: #134059;
+    border-style: none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.menu-tab:hover, .home-tab:hover, .contact-tab:hover {
+    background-color:#1d6891;
+}
+
+.main {
+    position: relative;
+}
+
+.main-img {
+    background: url('./background.png');
+    width: 100vw;
+    height: 80vh;
+}
+
+.header, .footer {
+    height: 10vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-color: black;
+}
