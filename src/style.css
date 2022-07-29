@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body, html {
     height: 100%;
     margin: 0;
@@ -62,7 +64,10 @@ body, html {
     height: 70vh;
     background: rgb(231, 176, 93);
     border-radius: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
+
 
 .image {
     background: url('./imagen.png') no-repeat;
@@ -86,8 +91,7 @@ body, html {
     width: 20vw;
     height: 20vh;
     top: 70%; 
-    left: 40%;
-
+    left: 5%;
 }
 
 .quote {
@@ -97,6 +101,15 @@ body, html {
     top: 30%; 
     left: 2%; 
     line-height: 10px;
+}
+
+.decor2 {
+    background: url('./decor2.png') no-repeat;
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    top: 1%; 
+    left: 45%;
 }
 
 

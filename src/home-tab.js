@@ -16,6 +16,9 @@ export default function homeTab() {
     const decor = document.createElement('div')
     decor.classList.add('decor')
 
+    const decor2 = document.createElement('div')
+    decor2.classList.add('decor2')
+
     const logo = document.createElement('div')
     logo.classList.add('logo')
 
@@ -32,6 +35,7 @@ export default function homeTab() {
     quote.appendChild(paragraph2)
     cardBody.appendChild(image)
     cardBody.appendChild(decor)
+    cardBody.appendChild(decor2)
     cardBody.appendChild(logo)
     cardBody.appendChild(quote)
     mainImg.appendChild(cardBody)
