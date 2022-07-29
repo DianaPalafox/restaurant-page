@@ -23,19 +23,19 @@ export default function initialPage() {
     //const homeBtn = document.createElement('div')
     //homeBtn.classList.add('btn')
     const homeTab = document.createElement('button')
-    homeTab.textContent = 'HOME'
+    homeTab.textContent = 'INICIO'
     homeTab.classList.add('home-tab')
 
     //const menuBtn = document.createElement('div')
     //menuBtn.classList.add('btn')
     const menuTab = document.createElement('button')
-    menuTab.textContent = 'MENU'
+    menuTab.textContent = 'MENÚ'
     menuTab.classList.add('menu-tab')
 
     //const contactBtn = document.createElement('div')
     //contactBtn.classList.add('btn')
     const contactTab = document.createElement('button')
-    contactTab.textContent = 'CONTACT'
+    contactTab.textContent = 'CONTACTO'
     contactTab.classList.add('contact-tab')
     
     //Add the main image
@@ -44,8 +44,8 @@ export default function initialPage() {
     const mainImg = document.createElement('div')
     mainImg.classList.add('main-img')
 
-    const logo = document.createElement('div')
-    logo.classList.add('logo')
+    //const logo = document.createElement('div')
+    //logo.classList.add('logo')
     
     //Add the footer
     const footer = document.createElement('div')
@@ -67,7 +67,7 @@ export default function initialPage() {
 
     container.appendChild(main)
     main.appendChild(mainImg)
-    main.appendChild(logo)
+    //main.appendChild(logo)
 
     container.appendChild(footer)
 

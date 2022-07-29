@@ -4,17 +4,13 @@ body, html {
     padding: 0;
 }
 
-/*body {
-    overflow: hidden;  
-}*/
-
 .container {
     height: 100%;
     background-color: #134059;
 }
 
-.menu-tab, .home-tab, .contact-tab{
-    width: 90px;
+.menu-tab, .home-tab, .contact-tab {
+    width: 100px;
     height: 10vh;
     background-color: #134059;
     border-style: none;
@@ -28,12 +24,19 @@ body, html {
 
 .main {
     position: relative;
+    width: 100%
 }
 
 .main-img {
     background: url('./background.png');
     width: 100vw;
     height: 80vh;
+    position: absolute;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header, .footer {
@@ -47,6 +50,53 @@ body, html {
     align-items: center;
 }
 
-.logo {
-    background-color: black;
+.footer {
+    position: absolute;
+    top: 90%; 
+    background-color: #134059;
 }
+
+.card-body {
+    position: relative;
+    width: 75vw;
+    height: 70vh;
+    background: rgb(231, 176, 93);
+    border-radius: 20px; 
+}
+
+.image {
+    background: url('./imagen.png') no-repeat;
+    width: 33vw;
+    height: 80vh;
+    margin-left: auto;
+}
+
+.logo {
+    background: url('./logo.png') no-repeat;
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+    position: absolute;
+    top: 1%; 
+}
+
+.decor {
+    background: url('./decor.png') no-repeat;
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    top: 70%; 
+    left: 40%;
+
+}
+
+.quote {
+    color: white; 
+    font-size: 3rem;
+    position: absolute;
+    top: 30%; 
+    left: 2%; 
+    line-height: 10px;
+}
+
+
