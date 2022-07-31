@@ -29,7 +29,7 @@ export default function homeTab() {
     paragraph.textContent = "¡VEN A PROBAR NUESTROS"
     
     const paragraph2 = document.createElement('p')
-    paragraph2.textContent = 'PAQUETES DE COMIDAS!'
+    paragraph2.textContent = 'POSTRES!'
     
     quote.appendChild(paragraph)
     quote.appendChild(paragraph2)

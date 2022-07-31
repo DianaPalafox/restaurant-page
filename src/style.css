@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body, html {
     height: 100%;
@@ -20,7 +22,16 @@ body, html {
     font-size: 1em;
 }
 
-.menu-tab:hover, .home-tab:hover, .contact-tab:hover {
+.about-tab {
+    width: 170px;
+    height: 10vh;
+    background-color: #134059;
+    border-style: none;
+    color: whitesmoke;
+    font-size: 1em;
+}
+
+.menu-tab:hover, .home-tab:hover, .contact-tab:hover, .about-tab:hover {
     background-color:#1d6891;
 }
 
@@ -62,15 +73,16 @@ body, html {
     position: relative;
     width: 75vw;
     height: 70vh;
-    background: rgb(231, 176, 93);
+    background: rgb(233, 173, 84);
     border-radius: 20px; 
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
 }
 
+.quote {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .image {
-    background: url('./imagen.png') no-repeat;
+    background: url('./image.png') no-repeat;
     width: 33vw;
     height: 80vh;
     margin-left: auto;
@@ -85,14 +97,14 @@ body, html {
     top: 1%; 
 }
 
-.decor {
+/*.decor {
     background: url('./decor.png') no-repeat;
     position: absolute;
     width: 20vw;
     height: 20vh;
-    top: 70%; 
-    left: 5%;
-}
+    top: 85%; 
+    left: 42%;
+}*/
 
 .quote {
     color: white; 
@@ -103,13 +115,88 @@ body, html {
     line-height: 10px;
 }
 
-.decor2 {
+/*.decor2 {
     background: url('./decor2.png') no-repeat;
     position: absolute;
     width: 20vw;
     height: 20vh;
     top: 1%; 
     left: 45%;
+}*/
+
+.title-menu {
+    background: url('./menu.png') no-repeat;
+    position: absolute;
+    width: 32vw;
+    height: 10vh;
+    top: 8%;
+    left: 50%; 
 }
 
+.title-contact {
+    background: url('./contact.png') no-repeat;
+    position: absolute;
+    width: 32vw;
+    height: 10vh;
+    top: 8%;
+    left: 50%; 
+}
+
+.title-about {
+    background: url('./about.png') no-repeat;
+    position: absolute;
+    width: 32vw;
+    height: 10vh;
+    top: 8%;
+    left: 50%; 
+}
+
+.menu-card, .card-contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 65vh;
+    gap: 40px;
+}
+
+.card-content, .card-content2 {
+    color: white;
+    background: #134059;
+    border-radius: 10px;
+    width: 30vw;
+    height: 43vh;
+}
+
+.card-title, .hours-title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-menu, .card-menu2 {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hours, .tel {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+}
+
+.hours, .tel {
+    color: #134059;
+    width: 25vw;
+    height: 43vh;
+    font-size: 1.3rem;
+
+}
+
+.tel-n{
+    padding-top: 40px;
+}
+
+.hp2 {
+    padding-bottom: 30px;
+}
 
