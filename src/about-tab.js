@@ -14,8 +14,23 @@ export default function aboutTab() {
     logo.classList.add('logo')
 
     const title = document.createElement('div')
-    title.classList.add('titleAbout')
+    title.classList.add('title-about')
     
+    const aboutContent = document.createElement('div')
+    aboutContent.classList.add('about-content')
+
+    const aboutCard = document.createElement('div')
+    aboutCard.classList.add('card-about')
+
+    const aboutP = document.createElement('p')
+    aboutP.textContent = "Somos una pastelería y panadería gourmet, ofrecemos productos hechos al día, preparados con ingredientes de productores locales pero sobre todo con mucho amor."
+    aboutP.classList.add('about-p')
+
+
+    aboutCard.appendChild(aboutP)
+    aboutContent.appendChild(aboutCard)
+    
+    cardBody.appendChild(aboutContent)
     cardBody.appendChild(logo)
     cardBody.appendChild(title)
     mainImg.appendChild(cardBody)

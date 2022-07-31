@@ -97,15 +97,6 @@ body, html {
     top: 1%; 
 }
 
-/*.decor {
-    background: url('./decor.png') no-repeat;
-    position: absolute;
-    width: 20vw;
-    height: 20vh;
-    top: 85%; 
-    left: 42%;
-}*/
-
 .quote {
     color: white; 
     font-size: 3rem;
@@ -115,14 +106,6 @@ body, html {
     line-height: 10px;
 }
 
-/*.decor2 {
-    background: url('./decor2.png') no-repeat;
-    position: absolute;
-    width: 20vw;
-    height: 20vh;
-    top: 1%; 
-    left: 45%;
-}*/
 
 .title-menu {
     background: url('./menu.png') no-repeat;
@@ -174,7 +157,7 @@ body, html {
     padding-top: 15px;
 }
 
-.card-menu, .card-menu2 {
+.card-menu, .card-menu2{
     margin: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -182,14 +165,36 @@ body, html {
 .hours, .tel {
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
-}
-
-.hours, .tel {
     color: #134059;
     width: 25vw;
     height: 43vh;
     font-size: 1.3rem;
+}
 
+.about-content {
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.card-about {
+    font-family: 'Montserrat', sans-serif;
+    background: #134059;
+    border-radius: 10px;
+    width: 60vw;
+    height: 30vh;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+    font-size: 2rem;
+    
 }
 
 .tel-n{
