@@ -69,6 +69,16 @@ body, html {
     position: absolute;
     top: 90%; 
     background-color: #134059;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 .card-body {
@@ -249,8 +259,10 @@ body, html {
         padding: 15px;
         font-size: 1.5rem;  
     }
-
-
+    
+    .copyright {
+        font-size: 8px;
+    }
     
 
 }

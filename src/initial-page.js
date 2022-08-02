@@ -44,6 +44,10 @@ export default function initialPage() {
     const footer = document.createElement('div')
     footer.classList.add('footer')
 
+    const copyright = document.createElement('div')
+    copyright.classList.add('copyright')
+    copyright.textContent = "Copyright © 2022 Pastry Company. Todos los Derechos Reservados | Made with love by Diana Palafox"
+    
     container.appendChild(header)
 
     header.appendChild(tabContainer)
@@ -54,7 +58,8 @@ export default function initialPage() {
 
     container.appendChild(main)
     main.appendChild(mainImg)
-
+    
+    footer.appendChild(copyright)
     container.appendChild(footer)
 
     content.appendChild(container)
