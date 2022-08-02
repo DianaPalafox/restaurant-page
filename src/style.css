@@ -8,6 +8,7 @@ body, html {
     padding: 0;
 }
 
+
 .container {
     height: 100%;
     background-color: #134059;
@@ -46,7 +47,8 @@ body, html {
     height: 80vh;
     position: absolute;
     z-index: -1;
-
+    background-size: 100% 100%;
+      
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,10 +79,6 @@ body, html {
     border-radius: 20px; 
 }
 
-.quote {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .image {
     background: url('./image.png') no-repeat;
     width: 33vw;
@@ -95,15 +93,17 @@ body, html {
     margin: 20px;
     position: absolute;
     top: 1%; 
+    background-size: 100% 100%;
 }
 
 .quote {
+    font-family: 'Montserrat', sans-serif;
+    white-space: pre-line;
     color: white; 
     font-size: 3rem;
     position: absolute;
     top: 30%; 
     left: 2%; 
-    line-height: 10px;
 }
 
 
@@ -114,6 +114,7 @@ body, html {
     height: 10vh;
     top: 8%;
     left: 50%; 
+    background-size: 100% 100%;
 }
 
 .title-contact {
@@ -123,6 +124,8 @@ body, html {
     height: 10vh;
     top: 8%;
     left: 50%; 
+    background-size: 100% 100%;
+
 }
 
 .title-about {
@@ -132,6 +135,7 @@ body, html {
     height: 10vh;
     top: 8%;
     left: 50%; 
+    background-size: 100% 100%;
 }
 
 .menu-card, .card-contact {
@@ -147,7 +151,7 @@ body, html {
     background: #134059;
     border-radius: 10px;
     width: 30vw;
-    height: 43vh;
+    height: auto;
 }
 
 .card-title, .hours-title {
@@ -177,7 +181,6 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
 }
 
 .card-about {
@@ -193,8 +196,7 @@ body, html {
     align-items: center;
 
     padding: 30px;
-    font-size: 2rem;
-    
+    font-size: 2rem;  
 }
 
 .tel-n{
@@ -205,3 +207,50 @@ body, html {
     padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 800px) {
+    .quote {
+        white-space: pre-line;
+        font-size: 2.5rem;
+    }
+
+    .image {
+        background-size: 100% 100%;
+    }
+
+    .card-title, .hours-title {
+        font-size: 1rem;
+    }
+
+    .hours, .tel {
+        margin: 10px;
+        height: 43vh;
+        font-size: 1rem;
+        white-space: pre-line;
+    }
+
+    .card-menu {
+        font-size: 0.6rem;
+    }
+
+    .card-content, .card-content2 {
+        height: 45vh;
+        width: 65vw; 
+    }
+
+    .about-content {
+        width: 80vw;
+        height: 65vh; 
+    }
+    
+    .card-about {
+        width: 60vw;
+        height: 40vh;
+    
+        padding: 15px;
+        font-size: 1.5rem;  
+    }
+
+
+    
+
+}

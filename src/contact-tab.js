@@ -50,7 +50,7 @@ export default function contactTab() {
     telN.textContent = "tel. 55 8892 0843"
 
     const mail = document.createElement('p')
-    mail.textContent = "pastryncompany@gmail.com"
+    mail.textContent = "pastrycompany\r\n@gmail.com"
     
     tel.appendChild(telN)
     tel.appendChild(mail)

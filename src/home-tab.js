@@ -26,16 +26,14 @@ export default function homeTab() {
     quote.classList.add('quote')
 
     const paragraph = document.createElement('p')
-    paragraph.textContent = "¡VEN A PROBAR NUESTROS"
+    paragraph.textContent = "¡VEN A PROBAR \r\n NUESTROS POSTRES!"
     
-    const paragraph2 = document.createElement('p')
-    paragraph2.textContent = 'POSTRES!'
+    //const paragraph2 = document.createElement('p')
+    //paragraph2.textContent = 'NUESTROS POSTRES!'
     
     quote.appendChild(paragraph)
-    quote.appendChild(paragraph2)
+    //quote.appendChild(paragraph2)
     cardBody.appendChild(image)
-    cardBody.appendChild(decor)
-    cardBody.appendChild(decor2)
     cardBody.appendChild(logo)
     cardBody.appendChild(quote)
     mainImg.appendChild(cardBody)

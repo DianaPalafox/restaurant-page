@@ -86,12 +86,12 @@ export default function menuTab() {
     const pr1 = document.createElement('p')
     pr1.classList.add('p1')
 
-    pr1.textContent = "EMPANADA DE CARNE Y PORO_____________ $25"
+    pr1.textContent = "EMPANADA DE CARNE_____________ $25"
 
     const pr2 = document.createElement('p')
     pr2.classList.add('p1')
 
-    pr2.textContent = "EMPANADA DE CHAMPIÑÓN CON QUESO_____________ $25"
+    pr2.textContent = "EMPANADA DE CHAMPIÑÓN_____________ $25"
     
     const pr3 = document.createElement('p')
     pr3.classList.add('p1')
@@ -106,7 +106,7 @@ export default function menuTab() {
     const pr5 = document.createElement('p')
     pr5.classList.add('p1')
 
-    pr5.textContent = "PIZZA DE SALAMI Y QUESOS_____________ $145"
+    pr5.textContent = "PIZZA DE SALAMI_____________ $145"
 
     const pr6 = document.createElement('p')
     pr6.classList.add('p1')
@@ -117,7 +117,11 @@ export default function menuTab() {
     pr7.classList.add('p1')
 
     pr7.textContent = "BAGUETTE DE AJO_____________ $28"
+     
+    const pr8 = document.createElement('p')
+    pr8.classList.add('p1')
 
+    pr8.textContent = "BOLLO_____________ $20"
 
     cardMenu.appendChild(p1)
     cardMenu.appendChild(p2)
@@ -135,6 +139,7 @@ export default function menuTab() {
     cardMenu2.appendChild(pr5)
     cardMenu2.appendChild(pr6)
     cardMenu2.appendChild(pr7)
+    cardMenu2.appendChild(pr8)
 
     cardContent.appendChild(cardTitle)
     cardContent.appendChild(cardMenu)
